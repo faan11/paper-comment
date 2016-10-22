@@ -97,7 +97,7 @@
     is: 'paper-comment',
     hostAttributes: {
      'profile-name': 'Title',
-     'comment-date': 'Ciao Bello',
+     'comment-date': '1d',
      'comment-text': '0',
      "profile-img":""
     }
