@@ -80,6 +80,14 @@
 			margin-bottom: 100%      
       
       }
+      .message_text{
+		word-break: break-all;
+		      
+      
+      }
+      .data{
+			width:100%      
+      }
     </style>
     
     <!-- local DOM goes here -->
@@ -89,7 +97,7 @@
 	    	<div >
 	      	<paper-icon-button class="profileimg"  src="{{profile-img}}" ></paper-icon-button>
 			</div>		
-			<div class="flex-child">	      
+			<div class="data flex-child">	      
 		      <div class="container message-title">
 		      {{profile-name}}
 		      <b style="text-align: right;">{{comment-date}}</b>

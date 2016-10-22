@@ -13,7 +13,17 @@
   
     <h3>Statically-configured icon-comment</h3>
     
-    <paper-comment message-count="1" profile-img="../images/paper_default_picture.jpg" profile-img="" profile-name="Fabio" comment-date="" comment-text="Ciao Mondo" profile-></paper-feed>
+    <paper-comment message-count="1" profile-img="../images/paper_default_picture.jpg" 
+     profile-name="Fabio" comment-date="" comment-text="
+Nel mezzo del cammin di nostra vita
+mi ritrovai per una selva oscura,
+ché la diritta via era smarrita.
+Ahi quanto a dir qual era è cosa dura
+esta selva selvaggia e aspra e forte
+che nel pensier rinova la paura!
+Tant' è amara che poco è più morte;
+ma per trattar del ben ch'i' vi trovai,
+dirò de l'altre cose ch'i' v'ho scorte." profile-></paper-feed>
     <!-- use a computed binding to generate the message -->
     <div><span>[[message(isFav)]]</span></div>
 
