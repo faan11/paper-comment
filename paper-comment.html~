@@ -83,7 +83,7 @@
 			<div>	      
 		      <div class="container message-title">
 		      {{profile-name}}
-		      <b style="text-align: right;">1d</b>
+		      <b style="text-align: right;">{{comment-date}}</b>
 		      </div> 
 		      <div class="message-text">{{comment-text}}</div>   
 	      </div>                 
